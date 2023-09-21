@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="40.851685px" height="35.511322px" viewBox="0 0 40.851685 35.511322" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="Group">
+    <g id="vuesaxbrokentimer-2" fill-opacity="1" transform="matrix(0.9998477 0.017452389 -0.017452389 0.9998477 5.949587 0)">
+      <path d="M35.5113 0.609218L35.5113 0.609218L34.9021 35.5113L0 34.9021L0.609218 0L35.5113 0.609218Z" id="vuesaxbrokentimer-2" fill="none" stroke="none" />
+      <g id="vuesaxbrokentimer">
+        <g id="timer">
+          <path d="M13.9762 14.2975L25.1029 24.4061C28.0555 27.0823 27.6337 31.9984 22.1648 31.9984L12.7398 31.9984C7.27102 31.9984 6.84922 27.0823 9.80181 24.4061L25.1029 10.5013C28.0555 7.82507 27.6337 2.90894 22.1648 2.90894L12.7398 2.90894C7.27102 2.90894 6.84922 7.82507 9.80181 10.5013" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M34.9074 0L34.9074 34.9074L0 34.9074L0 0L34.9074 0Z" id="Vector" fill="none" fill-rule="evenodd" stroke="none" />
+        </g>
+      </g>
+    </g>
+    <g id="vuesaxbrokentimer-2" fill-opacity="1" transform="translate(0 0.2746874)">
+      <path d="M34.912 0L34.912 0L34.912 34.912L0 34.912L0 0L34.912 0Z" id="vuesaxbrokentimer-2" fill="none" stroke="none" />
+      <g id="vuesaxbrokentimer">
+        <g id="timer">
+          <path d="M13.978 14.2994L25.1062 24.4093C28.0592 27.0859 27.6373 32.0027 22.1678 32.0027L12.7415 32.0027C7.27198 32.0027 6.85012 27.0859 9.8031 24.4093L25.1062 10.5027C28.0592 7.82611 27.6373 2.90934 22.1678 2.90934L12.7415 2.90934C7.27198 2.90934 6.85012 7.82611 9.8031 10.5027" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M34.912 0L34.912 34.912L0 34.912L0 0L34.912 0Z" id="Vector" fill="none" fill-rule="evenodd" stroke="none" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
