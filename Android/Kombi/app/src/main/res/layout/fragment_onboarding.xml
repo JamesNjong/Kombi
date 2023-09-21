@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_34dp"
+    tools:context=".onboarding.ui.main.PlaceholderFragment">
+
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/luna_splash1"
+        android:id="@+id/onb_image"
+        />
+
+
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        style="@style/h2"
+        android:textColor="@color/black"
+        android:text="Organize your works."/>
+
+    <TextView
+        android:id="@+id/section_brief"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/p"
+        android:textColor="@color/black"
+        android:text="Let's organize your works and prioritize what matters, so you can leave stress free."/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

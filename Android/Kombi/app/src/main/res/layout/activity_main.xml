@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/accent">
+
+    <antonkozyriatskyi.circularprogressindicator.CircularProgressIndicator
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:direction="clockwise"
+        app:dotColor="@color/primary"
+        app:dotWidth="20dp"
+        app:drawDot="true"
+        app:enableProgressAnimation="true"
+        app:progressBackgroundColor="@color/light_40"
+        app:progressBackgroundStrokeWidth="28dp"
+        app:progressCap="round"
+        app:progressColor="@color/primary"
+        app:progressStrokeWidth="16dp"
+        app:startAngle="270"
+        app:textColor="@color/accent"
+        app:textSize="0sp"
+        app:fillBackground="false"
+        app:gradientType="linear"
+        app:gradientEndColor="@color/primary"
+        android:id="@+id/circle_center"/>
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        />
+
+
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/luna_blvrd"
+            app:layout_constraintRight_toLeftOf="@id/textview_blvrd"
+            app:layout_constraintBottom_toBottomOf="@id/textview_blvrd"
+            />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pwb"
+                android:keepScreenOn="true"
+                style="@style/p"
+                android:textColor="@color/white"/>
+
+
+
+            <TextView
+                android:id="@+id/textview_blvrd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/blvrd"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/white"
+                style="@style/h2"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/version"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/divide"
+                android:gravity="center"
+                android:layout_gravity="bottom"
+                style="@style/small"
+                />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</FrameLayout>
