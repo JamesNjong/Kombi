@@ -4,18 +4,69 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
+    android:fitsSystemWindows="false"
     tools:context=".home.HomeActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fitsSystemWindows="true">
+        android:fitsSystemWindows="true"
+        android:padding="@dimen/_18dp">
 
-        <com.google.android.material.appbar.MaterialToolbar
-            android:id="@+id/toolbar"
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/h2"
+            android:textColor="@color/primary"
+            android:text="@string/app_name"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/p"
+            android:textColor="@color/black"
+            android:text="Task Manager"/>
+
+        <HorizontalScrollView
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize" />
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:scrollbarSize="0dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                >
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/ButtonPrimary"
+                    android:text="My Day"
+                    android:id="@+id/tab_1"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/ButtonLight40"
+                    android:text="Important"
+                    android:id="@+id/tab_2"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/ButtonLight40"
+                    android:text="Upcoming"
+                    android:id="@+id/tab_3"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </HorizontalScrollView>
+
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -27,7 +78,46 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="@dimen/fab_margin"
+        app:tint="@null"
+        app:backgroundTint="@color/accent"
         android:layout_marginBottom="16dp"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        app:srcCompat="@drawable/luna_new" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="@color/primary"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/fab_margin"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/luna_home"
+            android:layout_margin="@dimen/_8dp"
+            android:background="@drawable/background_dark40"
+            android:id="@+id/nav_home"/>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/luna_habits"
+            android:padding="@dimen/fab_margin"
+            android:background="@android:color/transparent"
+            android:id="@+id/nav_habits"/>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/luna_settings"
+            android:padding="@dimen/fab_margin"
+            android:background="@android:color/transparent"
+            android:id="@+id/nav_settings"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

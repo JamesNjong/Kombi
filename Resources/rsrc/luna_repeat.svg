@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="vuesaxbrokenrefresh-right-square" fill-opacity="1">
+    <path d="M29046 893L29046 893L29046 917L29022 917L29022 893L29046 893Z" id="vuesaxbrokenrefresh-right-square" fill="none" stroke="none" />
+    <g id="vuesaxbrokenrefresh-right-square">
+      <g id="refresh-right-square">
+        <g id="Group" transform="translate(7 5.73999)">
+          <path d="M6.67 1.77002C6.17 1.62002 5.62 1.52002 5 1.52002C2.24 1.52002 0 3.76002 0 6.52002C0 9.28002 2.24 11.52 5 11.52C7.76 11.52 10 9.28002 10 6.52002C10 5.49002 9.69 4.54002 9.16 3.74002" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M7.38071 1.91L5.7207 0" id="Vector" fill="none" fill-rule="evenodd" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M7.37946 1.90991L5.43945 3.32991" id="Vector" fill="none" fill-rule="evenodd" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </g>
+        <path d="M24 0L24 24L0 24L0 0L24 0Z" id="Vector" fill="none" fill-rule="evenodd" stroke="none" />
+        <path d="M2 14L2 15C2 20 4 22 9 22L15 22C20 22 22 20 22 15L22 9C22 4 20 2 15 2L9 2C4 2 2 4 2 9" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+  </g>
+</svg>

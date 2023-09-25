@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.ui.NoContentFragment"
+    android:background="@color/white"
+    android:padding="@dimen/_34dp">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/h4"
+        android:textColor="@color/black"
+        android:text="Get Started"
+        android:layout_margin="@dimen/fab_margin"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/small"
+        android:layout_margin="@dimen/fab_margin"
+        android:textColor="@color/black"
+        android:text="Cannot find any task for this grouping. Click the plus button at the bottom right edge of your screen to add your first !"
+        />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

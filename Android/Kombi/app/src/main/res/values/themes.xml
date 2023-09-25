@@ -32,16 +32,6 @@
     </style>
 
 
-    <style name="Theme.AppCompat.Starting" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">@color/white</item>
-        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">
-            @drawable/ic_launcher_foreground
-        </item>
-        <item name="windowSplashScreenAnimationDuration">4000</item>
-        <item name="postSplashScreenTheme">@style/Base.Theme.Kombi</item>
-    </style>
-
-
     <style name="Theme.Kombi" parent="Base.Theme.Kombi" />
 
 
@@ -67,6 +57,11 @@ Text styles : four main text styles : h1, h2, h3, P
         <item name="fontFamily">@font/b</item>
     </style>
 
+    <style name="h4" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/m</item>
+    </style>
+
     <style name="p" parent="Widget.AppCompat.TextView">
         <item name="android:textSize">16sp</item>
         <item name="fontFamily">@font/r</item>
@@ -84,18 +79,8 @@ Text styles : four main text styles : h1, h2, h3, P
 
     <style name="ButtonLight40" parent="Widget.AppCompat.Button">
         <item name="textAllCaps">true</item>
-        <item name="android:padding">16dp</item>
         <item name="android:background">@drawable/background_light40</item>
-        <item name="android:layout_margin">16dp</item>
-        <item name="fontFamily">@font/r</item>
-    </style>
-
-    <style name="ButtonBorder" parent="Widget.AppCompat.Button">
-        <item name="textAllCaps">true</item>
-        <item name="android:padding">16dp</item>
-        <item name="android:background">@drawable/button_border</item>
-        <item name="android:layout_margin">16dp</item>
-        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_margin">8dp</item>
         <item name="fontFamily">@font/r</item>
     </style>
 
@@ -119,15 +104,6 @@ Text styles : four main text styles : h1, h2, h3, P
         <item name="android:textColor">@color/white</item>
         <item name="fontFamily">@font/r</item>
     </style>
-
-    <style name="Theme.Kombi.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-
-    <style name="Theme.Kombi.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.Kombi.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
 </resources>

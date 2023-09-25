@@ -1,5 +1,7 @@
 plugins {
     id("com.android.application")
+    id("com.google.gms.google-services")
+    id("com.google.dagger.hilt.android")
 }
 
 android {
@@ -44,6 +46,11 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
     implementation("androidx.navigation:navigation-fragment:2.7.2")
     implementation("androidx.navigation:navigation-ui:2.7.2")
+    implementation("com.google.firebase:firebase-auth-ktx:21.1.0")
+    implementation("androidx.legacy:legacy-support-v4:1.0.0")
+    implementation("androidx.recyclerview:recyclerview:1.3.1")
+    implementation("com.google.firebase:firebase-database:20.2.2")
+    implementation("com.google.firebase:firebase-firestore:24.8.1")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
@@ -68,5 +75,10 @@ dependencies {
 
     //country code picker
     implementation("com.github.Ajinkrishnak:CountryCodePicker:1.0.2")
+
+
+    //hilt
+    implementation("com.google.dagger:hilt-android:2.44")
+    annotationProcessor ("com.google.dagger:hilt-android-compiler:2.44")
 }
 

@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name=".Kombi"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -13,14 +14,21 @@
         android:theme="@style/Theme.Kombi"
         tools:targetApi="31">
         <activity
+            android:name=".create.CreateActivity"
+            android:exported="false"
+            android:label="@string/title_activity_create"
+            android:theme="@style/Base.Theme.Kombi" />
+        <activity
+            android:name=".credentials.VerifyActivity"
+            android:exported="false"
+            android:theme="@style/Base.Theme.Kombi" />
+        <activity
             android:name=".credentials.CredentialsActivity"
             android:exported="false"
-            android:label="@string/title_activity_credentials"
             android:theme="@style/Base.Theme.Kombi" />
         <activity
             android:name=".home.HomeActivity"
             android:exported="false"
-            android:label="@string/title_activity_home"
             android:theme="@style/Base.Theme.Kombi" />
         <activity
             android:name=".onboarding.OnboardingActivity"
