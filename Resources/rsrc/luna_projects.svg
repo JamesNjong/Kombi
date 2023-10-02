@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="vuesaxbrokenfolder-minus" fill-opacity="1">
+    <path d="M-891 -387L-891 -387L-891 -363L-915 -363L-915 -387L-891 -387Z" id="vuesaxbrokenfolder-minus" fill="none" stroke="none" />
+    <g id="vuesaxbrokenfolder-minus">
+      <g id="folder-minus">
+        <path d="M14.4297 14.55L9.42969 14.55" id="Vector" fill="none" fill-rule="evenodd" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M2 13.02L2 7C2 3 3 2 7 2L8.5 2C10 2 10.33 2.44 10.9 3.2L12.4 5.2C12.78 5.7 13 6 14 6L17 6C21 6 22 7 22 11" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M22 14.99L22 17C22 21 21 22 17 22L7 22C3 22 2 21 2 17" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M24 0L24 24L0 24L0 0L24 0Z" id="Vector" fill="none" fill-rule="evenodd" stroke="none" />
+      </g>
+    </g>
+  </g>
+</svg>
