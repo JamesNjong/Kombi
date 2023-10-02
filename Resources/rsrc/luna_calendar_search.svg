@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="vuesaxbrokencalendar-search" fill-opacity="1">
+    <path d="M-891 -387L-891 -387L-891 -363L-915 -363L-915 -387L-891 -387Z" id="vuesaxbrokencalendar-search" fill="none" stroke="none" />
+    <g id="vuesaxbrokencalendar-search">
+      <g id="calendar-search">
+        <path d="M8 2L8 5" id="Vector" fill="none" fill-rule="evenodd" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M16 2L16 5" id="Vector" fill="none" fill-rule="evenodd" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M18.2 21.4C16.4327 21.4 15 19.9673 15 18.2C15 16.4327 16.4327 15 18.2 15C19.9673 15 21.4 16.4327 21.4 18.2C21.4 19.9673 19.9673 21.4 18.2 21.4Z" id="Vector" fill="none" fill-rule="evenodd" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M22 22L21 21" id="Vector" fill="none" fill-rule="evenodd" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M3.5 9.08984L20.5 9.08984" id="Vector" fill="none" fill-rule="evenodd" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M3 13.01L3 8.5C3 5.5 4.5 3.5 8 3.5L16 3.5C19.5 3.5 21 5.5 21 8.5L21 13" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M13.37 22L8 22C4.5 22 3 20 3 17" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M24 0L24 24L0 24L0 0L24 0Z" id="Vector" fill="none" fill-rule="evenodd" stroke="none" />
+        <path d="M11.9945 13.7L12.0035 13.7" id="Vector" fill="none" fill-rule="evenodd" stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M8.29529 13.7L8.30427 13.7" id="Vector" fill="none" fill-rule="evenodd" stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M8.29529 16.7L8.30427 16.7" id="Vector" fill="none" fill-rule="evenodd" stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+  </g>
+</svg>
