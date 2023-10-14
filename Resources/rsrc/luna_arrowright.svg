@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="vuesaxbrokenarrow-right" fill-opacity="1">
+    <path d="M29046 893L29046 893L29046 917L29022 917L29022 893L29046 893Z" id="vuesaxbrokenarrow-right" fill="none" stroke="none" />
+    <g id="vuesaxbrokenarrow-right">
+      <g id="arrow-right">
+        <path d="M14.4297 5.92993L20.4997 11.9999L14.4297 18.0699" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M11.0098 12L20.3298 12" id="Vector" fill="none" fill-rule="evenodd" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M3.5 12L6.97 12" id="Vector" fill="none" fill-rule="evenodd" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M24 0L24 24L0 24L0 0L24 0Z" id="Vector" fill="none" fill-rule="evenodd" stroke="none" />
+      </g>
+    </g>
+  </g>
+</svg>

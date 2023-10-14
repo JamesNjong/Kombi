@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="412px" height="303px" viewBox="0 0 412 303" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="objectBoundingBox" x1="0.004789376" y1="0.004789376" x2="0.21071538" y2="1.5486423" id="gradient_1">
+      <stop offset="0%" stop-color="#4305A9" />
+      <stop offset="100%" stop-color="#180A2F" />
+    </linearGradient>
+  </defs>
+  <path d="M412 0L412 0L412 263C412 285.094 394.094 303 372 303L40 303C17.9055 303 0 285.094 0 263L0 0L412 0Z" id="Rectangle-Copy-2" fill="url(#gradient_1)" stroke="none" />
+</svg>

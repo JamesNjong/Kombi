@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="vuesaxbrokenedit" fill-opacity="1">
+    <path d="M27501 375L27501 375L27501 399L27477 399L27477 375L27501 375Z" id="vuesaxbrokenedit" fill="none" stroke="none" />
+    <g id="vuesaxbrokenedit">
+      <g id="edit">
+        <path d="M22 13L22 15C22 20 20 22 15 22L9 22C4 22 2 20 2 15L2 13.48" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M11 2L9 2C4 2 2 4 2 9" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M19.9299 9.01001L20.9799 7.96001C22.3399 6.60001 22.9799 5.02001 20.9799 3.02001C18.9799 1.02001 17.3999 1.66001 16.0399 3.02001L8.15988 10.9C7.85988 11.2 7.55988 11.79 7.49988 12.22L7.06988 15.23C6.90988 16.32 7.67988 17.08 8.76988 16.93L11.7799 16.5C12.1999 16.44 12.7899 16.14 13.0999 15.84L16.2799 12.66L17.0099 11.93" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M14.9102 4.1499C15.5802 6.5399 17.4502 8.4099 19.8502 9.0899" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M24 0L24 24L0 24L0 0L24 0Z" id="Vector" fill="none" fill-rule="evenodd" stroke="none" />
+      </g>
+    </g>
+  </g>
+</svg>
